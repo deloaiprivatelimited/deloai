@@ -24,22 +24,19 @@ export default function Contact() {
 
         <div className="relative z-10 max-w-3xl mx-auto text-center px-0">
           <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 leading-snug">
-            Contact <span>Our Team</span>
-            <br />
-            We're here to help!
+            Ready to Start Your Project?
           </h2>
 
           <p className="text-gray-600 text-lg mt-6">
-            Have questions about our platform or need more information?
-            Reach out—we’d love to hear from you.
+            Let's transform your ideas into reality with our proven process
           </p>
 
           {/* Open Modal Button */}
           <button
             onClick={() => setOpen(true)}
-            className="mt-10 bg-lime-400 hover:bg-lime-300 text-white font-medium px-8 py-3 rounded-lg shadow-md transition"
+            className="mt-10 bg-lime-400 hover:bg-lime-300 text-black font-medium px-8 py-3 rounded-lg shadow-md transition"
           >
-            Contact Us
+            Get Started
           </button>
 
           {/* Mobile-only space + bottom images */}
