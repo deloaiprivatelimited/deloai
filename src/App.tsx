@@ -11,9 +11,10 @@ function App() {
   return (    
   <div>
       <Header />
-      <WhyChooseUs />
        
-      <HeroSection />
+     <div className='mt-10'>
+       <HeroSection />
+     </div>
      <div className='ml-20'>
         <ServiceCard
        label='Plan'
@@ -22,6 +23,8 @@ function App() {
         description="High‑quality responsive websites built with modern tools."
       />
      </div>
+           <WhyChooseUs />
+
       <Contact />
       <Footer/>
     </div>

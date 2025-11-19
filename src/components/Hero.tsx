@@ -7,7 +7,7 @@ export default function HeroSection() {
   const [displayedText, setDisplayedText] = useState('Latest Product');
   const typingRef = useRef<number | null>(null);
   const animationIndex = useRef(0);
-  const fullText = 'CareerPrep';
+  const fullText = 'careerprep.in';
 
   const startTyping = useCallback(() => {
     // Reset any running interval
