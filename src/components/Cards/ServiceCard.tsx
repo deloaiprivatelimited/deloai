@@ -23,7 +23,7 @@ export default function ServiceCard({ image, title, description, label }: Servic
         {/* Image wrapper */}
         <div className="relative w-full h-40 md:h-48">
           {label && (
-            <div className="absolute top-0 left-0 bg-lime-600 text-white 
+            <div className="absolute top-0 left-0 bg-lime-400 text-black 
                     text-sm font-semibold py-1.5 px-3 rounded-br-md z-10">
               {label}
             </div>
@@ -36,11 +36,11 @@ export default function ServiceCard({ image, title, description, label }: Servic
 
         {/* Content section */}
         <div className="pb-6 px-6 space-y-2">
-          <h2 className="text-xl font-semibold text-lime-600 text-left">
+          <h2 className="text-xl font-semibold text-black text-left">
             {title}
           </h2>
 
-          <p className="text-gray-600 text-sm text-left">
+          <p className="text-gray-500 text-sm text-left">
             {description}
           </p>
         </div>
