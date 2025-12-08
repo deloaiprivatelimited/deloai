@@ -11,6 +11,8 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Policy from "./pages/Policy"; // Privacy Policy page
 import GalleryPage from "./components/MathQuest/Gallery/GAllery";
+import AboutHero from "./components/about/Hero";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -62,6 +64,7 @@ function App() {
             <Route path="/privacy-policy" element={<Policy />} />
                         <Route path="/mathquest/2024-25/gallery" element={<GalleryPage/>} />
 
+            <Route path="/about" element={<About />} />
           </Routes>
         </main>
 
