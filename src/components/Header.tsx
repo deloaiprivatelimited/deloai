@@ -6,7 +6,9 @@ export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 py-4 bg-transparent">
+<header className="fixed top-0 left-0 w-full z-50 py-4 ">
+        <div className="pointer-events-none absolute inset-x-0 top-0 h-4 bg-white/30 backdrop-blur-lg supports-[backdrop-filter]:bg-white/30" />
+
       <div className="px-4 md:px-8 lg:px-12">
         <div className="bg-white rounded-2xl shadow-sm overflow-hidden">
           {/* Main Navbar */}
