@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header";
 import HeroSection from "./components/Hero";
+import CareerPrepSection from "./components/CareerPrep";
 import ServiceSection from "./components/Services";
 import WhyChooseUs from "./components/WhyChooseUs";
 import OurClientsSection from "./OurClientsSection";
@@ -24,32 +25,35 @@ function App() {
             <Route
               path="/"
               element={
-                <div>
+                <>
                   {/* Hero */}
-                  <div className="mt-10">
+                  <div className="mt-10 ">
                     <HeroSection />
                   </div>
-
-                  {/* Services */}
-                  <section id="services">
-                    <ServiceSection />
+    {/* Why Us */}
+     <section id="career-prep">
+                    <CareerPrepSection/>
                   </section>
-
-                  {/* Why Us */}
                   <section id="why-us">
                     <WhyChooseUs />
                   </section>
+                  {/* Services */}
+                  <section id="services " >
+                    <ServiceSection />
+                  </section>
+
+              
 
                   {/* Portfolio */}
-                  <section id="portfolio">
+                  <section id="portfolio" >
                     <OurClientsSection />
                   </section>
 
                   {/* Contact */}
-                  <section id="contact">
+                  <section id="contact" >
                     <Contact />
                   </section>
-                </div>
+                </>
               }
             />
 

@@ -57,7 +57,7 @@ export default function HeroSection() {
   const handleBlur = () => setIsHovering(false);
 
   return (
-    <section className="min-h-screen bg-white flex items-center" aria-label="Hero section">
+    <section className="min-h-screen flex items-center" aria-label="Hero section">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-20 w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">

@@ -18,24 +18,25 @@ export default function ServiceCard({ image, title, description, label }: Servic
 
       {/* Card */}
       <div className="max-w-sm rounded-3xl border border-gray-300 bg-white 
-                      flex flex-col relative z-10 overflow-hidden">
+                      flex flex-col relative z-10 overflow-hidden h-96">
 
         {/* Image wrapper */}
-        <div className="relative w-full h-40 md:h-48">
-          {label && (
+        <div className="relative w-full h-[60%]">
+          {/* {label && (
             <div className="absolute top-0 left-0 bg-lime-400 text-black 
                     text-sm font-semibold py-1.5 px-3 rounded-br-md z-10">
               {label}
             </div>
-          )}
+          )} */}
 
-          <img src={image} alt={title} className="w-full h-full p-4 object-contain" />
-        </div>
+<div className="w-full h-full bg-[#E6FBE6]">
+            <img src={image} alt={title} className="w-full h-full object-fill" />
+</div>        </div>
 
 
 
         {/* Content section */}
-        <div className="pb-6 px-6 space-y-2">
+        <div className="pb-6 px-6 space-y-2 h-[40%] flex flex-col justify-center">
           <h2 className="text-xl font-semibold text-black text-left">
             {title}
           </h2>

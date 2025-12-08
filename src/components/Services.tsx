@@ -1,11 +1,11 @@
 import React from "react";
 import ServiceCard from "./Cards/ServiceCard";
-import planImage from "../assets/servicecards/plan.png";
-import DigitalMarketingImage from "../assets/servicecards/digital_marketing.png";
-import DevelopmentImage from "../assets/servicecards/development.png";
-import HostingImage from "../assets/servicecards/hosting.png";
-import UiUxImage from "../assets/servicecards/ui_ux.png";
-import AiAutomationImage from "../assets/servicecards/ai_automation.png";
+import planImage from "../assets/servicecards2/plan.png";
+import DigitalMarketingImage from "../assets/servicecards2/digital_marketing.png";
+import DevelopmentImage from "../assets/servicecards2/development.png";
+import HostingImage from "../assets/servicecards2/hosting.png";
+import UiUxImage from "../assets/servicecards2/ui_ux.png";
+import AiAutomationImage from "../assets/servicecards2/ai_automation.png";
 const services = [
   {
     label: "Plan",
@@ -54,9 +54,10 @@ const services = [
 
 export default function ServiceSection() {
   return (
-    <section className="py-16 px-6">
-      <h2 className="text-3xl font-semibold text-center mb-10">Our Services</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
+    <section className="py-16 px-6 ">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12  w-full">
+        <h2 className="text-3xl font-semibold mb-10">Our Services</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-20 gap-x-12">
         {services.map((service, index) => (
           <ServiceCard
             key={index}
@@ -66,6 +67,7 @@ export default function ServiceSection() {
             description={service.description}
           />
         ))}
+        </div>
       </div>
     </section>
   );
