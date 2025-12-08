@@ -10,6 +10,8 @@ import OurClientsSection from "./OurClientsSection";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Policy from "./pages/Policy"; // Privacy Policy page
+import AboutHero from "./components/about/Hero";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -59,6 +61,7 @@ function App() {
 
             {/* Privacy Policy Route */}
             <Route path="/privacy-policy" element={<Policy />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </main>
 
