@@ -99,7 +99,7 @@ const Team: React.FC = () => {
                     </defs>
 
                     {/* Full-rect image with mask = same shapes as your HTML */}
-                    <image className="grayscale"
+                    <image className="grayscale-[50]"
                       href={member.image}
                       x={0}
                       y={0}
