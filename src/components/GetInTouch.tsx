@@ -22,7 +22,8 @@ const GetInTouch: React.FC = () => {
                 Address
               </h3>
               <p className="text-gray-200 mt-1">
-                BMS Institute of Technology and Management <br />Doddaballapura Main Rd, Yelahanka, <br />Avalahalli, Bengaluru, <br />Karnataka 560119
+                BMS Innovation Centre & Entrepreneurship Park, <br />BMS Institute of Technology and Management, <br />
+                Yelahanka, Avalahalli, Bengaluru – 560064, India
               </p>
             </div>
 

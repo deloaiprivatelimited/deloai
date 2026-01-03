@@ -43,7 +43,7 @@ export default function Footer() {
             <div className="flex items-center space-x-2 md:justify-end">
               <Mail className="h-4 w-4 text-lime-600" />
               <a href="mailto:contact@deloai.com" className="hover:text-lime-600">
-                lokesh@deloai.com
+                contact@deloai.com
               </a>
             </div>
 
