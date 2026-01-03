@@ -17,7 +17,7 @@ export default function Footer() {
         </div>
 
         {/* COMPANY */}
-        <div className="order-2">
+        <div className="order-1">
           <h4 className="font-semibold mb-4">Company</h4>
           <ul className="space-y-3 text-gray-600">
             <li><a href="#" className="hover:text-lime-600">Why us?</a></li>
